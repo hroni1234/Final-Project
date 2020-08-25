@@ -1,0 +1,19 @@
+A - number of apache process
+B - number of black rows(lost ack)
+C - number of red rows(tcp restart/bad port)
+D - number of ip req from single ip
+E - TIME_WAIT 
+F - number of packets 
+G - avg size of packet
+H - R
+I - CPU usage
+J- closed connection 
+K - 1 benign / -1 under attack
+
+
+1-200 benign
+200-240 slowloris
+240-280 slow post
+280-320 slow headers 
+320-360 udp flood
+360-400 arp poisoning 
